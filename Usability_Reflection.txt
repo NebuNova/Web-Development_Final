@@ -1,0 +1,1 @@
+The site is designed to be very easy to navigate, with every available page easily accessible from the header. The charities list page has the added function of being able to click the image to take the user directly to the specific charity’s page. The layout is simple, the font and colors make the text easy to read, and image alts are intuitive.

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Volunteer Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="charities.html">Charities List</a></li>
+        <li><a href="feeding_america.html">Feeding America</a></li>
+        <li><a href="direct_relief.html">Direct Relief</a></li>
+        <li><a href="good360.html">Good360</a></li>
+        <li><a href="volunteer_info.html">Volunteer Info</a></li>
+      </ul>
+    </nav>
+    <h1>Volunteer Form</h1>
+    <form action="submit_volunteer_info.php" method="post">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" required /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br />
+
+      <label for="charity">Charity:</label><br />
+      <input type="text" id="charity" name="charity" required /><br />
+
+      <label for="phone">Phone:</label><br />
+      <input type="tel" id="phone" name="phone" /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
